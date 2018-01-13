@@ -11,6 +11,7 @@ def get_class_prefs(path_to_file):
 
         # Loop over the file line by line
         for line in file:
+            # rstrip() removes the trailing newline
             prefs_dict.append(line.rstrip())
 
 
